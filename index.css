@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+#ladoEsquerdo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+#ladoDireito{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+main{
+    width: 55%;
+    height: auto;
+    margin: 0px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    width: 60%;
+    margin: 0px auto;
+    border: 2px solid rgb(199, 0, 0);
+}
+
+#bannerElizabeth{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+#conteudoBanner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#fotoElizabeth{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#conteudoBanner p{
+    width: 70%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}
+
+#conteudoArtes{
+    width: 80%;
+    height: 350px;
+   
+    margin: 0px auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.artes{
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#imgArte1, #imgArte2, #imgArte3{
+    width: 90%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+
